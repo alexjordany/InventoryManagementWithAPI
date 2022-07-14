@@ -10,3 +10,15 @@
 /Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/refint/InventoryManagement.Domain.dll
 /Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/InventoryManagement.Domain.pdb
 /Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/ref/InventoryManagement.Domain.dll
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/bin/Debug/net6.0/InventoryManagement.Domain.deps.json
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/bin/Debug/net6.0/InventoryManagement.Domain.dll
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/bin/Debug/net6.0/InventoryManagement.Domain.pdb
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/InventoryManagement.Domain.csproj.AssemblyReference.cache
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/InventoryManagement.Domain.AssemblyInfoInputs.cache
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/InventoryManagement.Domain.AssemblyInfo.cs
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/InventoryManagement.Domain.csproj.CoreCompileInputs.cache
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/InventoryManagement.Domain.dll
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/refint/InventoryManagement.Domain.dll
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/InventoryManagement.Domain.pdb
+/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/Debug/net6.0/ref/InventoryManagement.Domain.dll

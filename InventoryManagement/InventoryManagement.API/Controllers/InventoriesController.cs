@@ -9,11 +9,11 @@ namespace InventoryManagement.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class InventoryController : ControllerBase
+public class InventoriesController : ControllerBase
 {
     private readonly IMediator _mediator;
 
-    public InventoryController(IMediator mediator)
+    public InventoriesController(IMediator mediator)
     {
         _mediator = mediator;
     }

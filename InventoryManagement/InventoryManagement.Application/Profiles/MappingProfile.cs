@@ -3,6 +3,8 @@ using InventoryManagement.Application.Features.Inventories.Commands.UpdateInvent
 using InventoryManagement.Application.Features.Inventories.Queries.GetInventoriesByName;
 using InventoryManagement.Application.Features.Inventories.Queries.GetInventoriesList;
 using InventoryManagement.Application.Features.Inventories.Queries.GetInventoryDetail;
+using InventoryManagement.Application.Features.Products.Commands.CreateProduct;
+using InventoryManagement.Application.Features.Products.Queries.GetProductsList;
 
 namespace InventoryManagement.Application.Profiles;
 
@@ -16,6 +18,9 @@ public class MappingProfile : Profile
         CreateMap<Inventory, InventoryDetailVM>().ReverseMap();
         CreateMap<Inventory, UpdateInventoryCommand>().ReverseMap();
         CreateMap<Inventory, UpdateInventoryDto>().ReverseMap();
+
+        CreateMap<Product, CreateProductDto>().ReverseMap();
+        CreateMap<Product, ProductListVM>().ReverseMap();
     }
 }
 

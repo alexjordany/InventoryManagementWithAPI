@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Application/InventoryManagement.Application.csproj": {}
+    "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Application/InventoryManagement.Application.csproj": {}
   },
   "projects": {
-    "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Application/InventoryManagement.Application.csproj": {
+    "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Application/InventoryManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Application/InventoryManagement.Application.csproj",
+        "projectUniqueName": "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Application/InventoryManagement.Application.csproj",
         "projectName": "InventoryManagement.Application",
-        "projectPath": "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Application/InventoryManagement.Application.csproj",
+        "projectPath": "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Application/InventoryManagement.Application.csproj",
         "packagesPath": "/Users/alexparrales/.nuget/packages/",
-        "outputPath": "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Application/obj/",
+        "outputPath": "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/alexparrales/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj": {
-                "projectPath": "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj"
+              "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj": {
+                "projectPath": "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj"
               }
             }
           }
@@ -52,11 +52,11 @@
             },
             "FluentValidation": {
               "target": "Package",
-              "version": "[10.4.0, )"
+              "version": "[11.1.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[10.4.0, )"
+              "version": "[11.1.2, )"
             },
             "MediatR": {
               "target": "Package",
@@ -86,14 +86,14 @@
         }
       }
     },
-    "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj": {
+    "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj",
+        "projectUniqueName": "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj",
         "projectName": "InventoryManagement.Domain",
-        "projectPath": "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj",
+        "projectPath": "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj",
         "packagesPath": "/Users/alexparrales/.nuget/packages/",
-        "outputPath": "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/obj/",
+        "outputPath": "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/alexparrales/.nuget/NuGet/NuGet.Config"

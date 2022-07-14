@@ -9,8 +9,8 @@
 	<ItemGroup>
 		<PackageReference Include="AutoMapper" Version="11.0.1" />
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
-		<PackageReference Include="FluentValidation" Version="10.4.0" />
-		<PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
+		<PackageReference Include="FluentValidation" Version="11.1.0" />
+		<PackageReference Include="FluentValidation.AspNetCore" Version="11.1.2" />
 		<PackageReference Include="MediatR" Version="10.0.1" />
 		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
 	</ItemGroup>
@@ -29,6 +29,11 @@
 		<None Remove="Features\Inventories\Queries\GetInventoryDetail\" />
 		<None Remove="Features\Inventories\Commands\CreateInventory\" />
 		<None Remove="Features\Inventories\Commands\UpdateInventory\" />
+		<None Remove="Features\Products\" />
+		<None Remove="Features\Products\Commands\" />
+		<None Remove="Features\Products\Queries\" />
+		<None Remove="Features\Products\Commands\CreateProduct\" />
+		<None Remove="Features\Products\Queries\GetProductsList\" />
 	</ItemGroup>
 	<ItemGroup>
 		<Folder Include="Contracts\" />
@@ -45,6 +50,11 @@
 		<Folder Include="Features\Inventories\Queries\GetInventoryDetail\" />
 		<Folder Include="Features\Inventories\Commands\CreateInventory\" />
 		<Folder Include="Features\Inventories\Commands\UpdateInventory\" />
+		<Folder Include="Features\Products\" />
+		<Folder Include="Features\Products\Commands\" />
+		<Folder Include="Features\Products\Queries\" />
+		<Folder Include="Features\Products\Commands\CreateProduct\" />
+		<Folder Include="Features\Products\Queries\GetProductsList\" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\InventoryManagement.Domain\InventoryManagement.Domain.csproj" />

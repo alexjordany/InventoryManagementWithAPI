@@ -11,5 +11,6 @@ public class InventoryManagementDbContext : DbContext
     }
 
     public DbSet<Inventory> Inventories { get; set; }
+    public DbSet<Product> Products { get; set; }
 }
 

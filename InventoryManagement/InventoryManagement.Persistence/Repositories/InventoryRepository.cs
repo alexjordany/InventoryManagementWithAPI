@@ -13,7 +13,9 @@ public class InventoryRepository : BaseRepository<Inventory>, IInventoryReposito
 
     public async Task<IEnumerable<Inventory>> GetInventoriesByName(string name)
     {
-        var inventoriesbyName = await _dbContext.Inventories.Where(x => x.InventoryName.Contains(name, StringComparison.OrdinalIgnoreCase)).ToListAsync();
+        var inventoriesbyName = await _dbContext.Inventories
+            .Where(x => x.InventoryName.Contains(name, StringComparison.OrdinalIgnoreCase) ||
+            string.IsNullOrWhiteSpace(name)).ToListAsync();
         return inventoriesbyName;
     }
 }

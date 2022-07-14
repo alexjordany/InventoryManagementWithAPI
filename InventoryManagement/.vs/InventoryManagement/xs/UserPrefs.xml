@@ -1,27 +1,11 @@
 ﻿<Properties StartupConfiguration="{0410E0F4-2624-441C-9FA3-7608AE81B0E3}|Default">
-  <MonoDevelop.Ide.ItemProperties.InventoryManagement.API PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InventoryManagement.Application/Exceptions/NotFoundException.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="InventoryManagement.API/Controllers/ProductsController.cs">
     <Files>
-      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/UpdateInventory/UpdateInventoryCommandHandler.cs" Line="45" Column="53" />
-      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/CreateInventory/CreateInventoryCommandHandler.cs" Line="48" Column="1" />
-      <File FileName="InventoryManagement.Application/Profiles/MappingProfile.cs" Line="18" Column="65" />
-      <File FileName="InventoryManagement.API/Controllers/InventoryController.cs" Line="53" Column="6" />
-      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/CreateInventory/CreateInventoryCommandResponse.cs" Line="1" Column="1" />
-      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/CreateInventory/CreateInventoryDto.cs" Line="1" Column="1" />
-      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/CreateInventory/CreateInventoryCommandValidator.cs" Line="1" Column="1" />
-      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/UpdateInventory/UpdateInventoryCommandResponse.cs" Line="1" Column="1" />
-      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/UpdateInventory/UpdateInventoryCommand.cs" Line="9" Column="51" />
-      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/UpdateInventory/UpdateInventoryDto.cs" Line="3" Column="133" />
-      <File FileName="InventoryManagement.Domain/Shared/AuditableEntity.cs" Line="8" Column="2" />
-      <File FileName="InventoryManagement.API/Middleware/ExceptionHandlerMiddleware.cs" Line="1" Column="1" />
-      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/UpdateInventory/UpdateInventoryCommandValidator.cs" Line="1" Column="1" />
-      <File FileName="InventoryManagement.Application/Exceptions/NotFoundException.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.API/Controllers/ProductsController.cs" Line="31" Column="25" />
+      <File FileName="InventoryManagement.API/Controllers/InventoriesController.cs" Line="29" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,20 +16,21 @@
               <Node name="Middleware" expanded="True" />
             </Node>
             <Node name="InventoryManagement.Application" expanded="True">
-              <Node name="Common" expanded="True" />
-              <Node name="Exceptions" expanded="True">
-                <Node name="NotFoundException.cs" selected="True" />
-              </Node>
               <Node name="Features" expanded="True">
                 <Node name="Inventories" expanded="True">
                   <Node name="Commands" expanded="True">
                     <Node name="CreateInventory" expanded="True" />
-                    <Node name="UpdateInventory" expanded="True" />
                   </Node>
                   <Node name="Queries" expanded="True">
-                    <Node name="GetInventoriesByName" expanded="True" />
                     <Node name="GetInventoriesList" expanded="True" />
-                    <Node name="GetInventoryDetail" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Products" expanded="True">
+                  <Node name="Commands" expanded="True">
+                    <Node name="CreateProduct" expanded="True" />
+                  </Node>
+                  <Node name="Queries" expanded="True">
+                    <Node name="GetProductsList" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -57,7 +42,6 @@
               <Node name="Shared" expanded="True" />
             </Node>
             <Node name="InventoryManagement.Persistence" expanded="True">
-              <Node name="Dependencies" expanded="True" />
               <Node name="Repositories" expanded="True" />
             </Node>
           </Node>
@@ -68,4 +52,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.InventoryManagement.API PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>

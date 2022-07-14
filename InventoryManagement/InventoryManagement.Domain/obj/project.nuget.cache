@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hujIRpXz48tWtnCWLd+5a+pcbGrK7fc7qeHNWll74K79Raw80iisA3hp2bJLlfbQdqg1LWPW2A6Yd1Sf0ty6hQ==",
+  "dgSpecHash": "PBP4Ey04YC0W1RuVqwqgrnu/spxS/MUxRDGIekzMyqzbtw6ZDE95cvHgKI8KFvqDtRM8IBSyqMPxdnF2tg0C1w==",
   "success": true,
-  "projectFilePath": "/Users/alexparrales/Projects/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj",
+  "projectFilePath": "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Domain/InventoryManagement.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

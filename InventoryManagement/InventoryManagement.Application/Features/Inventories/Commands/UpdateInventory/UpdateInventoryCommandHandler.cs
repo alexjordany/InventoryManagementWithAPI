@@ -36,12 +36,6 @@ public class UpdateInventoryCommandHandler : IRequestHandler<UpdateInventoryComm
 
         if (updateInventoryCommandResponse.Success)
         {
-            //_mapper.Map(request, inventoryToUpdate, typeof(UpdateInventoryCommand), typeof(Inventory));
-
-            //await _inventoryRepository.UpdateAsync(inventoryToUpdate);
-
-
-            //updateInventoryCommandResponse.Inventory = _mapper.Map<UpdateInventoryDto>(inventoryToUpdate);
             request.LastModifiedDate = DateTime.Now;
 
             var inventory = _mapper.Map(request, inventoryToUpdate, typeof(UpdateInventoryCommand), typeof(Inventory));
@@ -49,28 +43,8 @@ public class UpdateInventoryCommandHandler : IRequestHandler<UpdateInventoryComm
             await _inventoryRepository.UpdateAsync(inventoryToUpdate);
 
             updateInventoryCommandResponse.Inventory = _mapper.Map<UpdateInventoryDto>(inventory);
-
         }
         return updateInventoryCommandResponse;
 
     }
 }
-
-//if (createInventoryCommandResponse.Success)
-//        {
-//            var inventory = new Inventory()
-//            {
-//                InventoryName = request.InventoryName,
-//                Price = request.Price,
-//                Quantity = request.Quantity,
-//                Active = true,
-//                CreatedDate = DateTime.Now
-//            };
-
-//inventory = await _inventoryRepository.AddAsync(inventory);
-//createInventoryCommandResponse.Inventory = _mapper.Map<CreateInventoryDto>(inventory);
-//        }
-
-//        return createInventoryCommandResponse;
-//    }
-//}
