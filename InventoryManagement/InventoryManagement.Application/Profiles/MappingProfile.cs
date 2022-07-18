@@ -20,7 +20,10 @@ public class MappingProfile : Profile
         CreateMap<Inventory, UpdateInventoryDto>().ReverseMap();
 
         CreateMap<Product, CreateProductDto>().ReverseMap();
+        CreateMap<Product, CreateProductCommand>().ReverseMap();
+        CreateMap<ProductInventory, CreateProductInventoryDto>().ReverseMap();
         CreateMap<Product, ProductListVM>().ReverseMap();
+        
     }
 }
 

@@ -10,5 +10,7 @@ public class Inventory : AuditableEntity
     public string InventoryName { get; set; } = string.Empty;
     public int Quantity { get; set; }
     public double Price { get; set; }
+
+    public List<ProductInventory> ProductInventories { get; set; }
 }
 

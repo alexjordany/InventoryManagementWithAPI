@@ -29,14 +29,7 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
 
         if (createProductCommandResponse.Success)
         {
-            var product = new Product()
-            {
-                ProductName = request.ProductName,
-                Price = request.Price,
-                Quantity = request.Quantity,
-                Active = true,
-                CreatedDate = DateTime.Now
-            };
+            var @product = _mapper.Map<Product>(request);
 
             product = await _productRepository.AddAsync(product);
             createProductCommandResponse.Product = _mapper.Map<CreateProductDto>(product); 

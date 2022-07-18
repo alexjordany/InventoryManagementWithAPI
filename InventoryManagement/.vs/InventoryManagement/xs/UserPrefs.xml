@@ -1,11 +1,33 @@
 ﻿<Properties StartupConfiguration="{0410E0F4-2624-441C-9FA3-7608AE81B0E3}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InventoryManagement.API/Controllers/ProductsController.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="InventoryManagement.Domain/Entities/Product.cs">
     <Files>
-      <File FileName="InventoryManagement.API/Controllers/ProductsController.cs" Line="31" Column="25" />
-      <File FileName="InventoryManagement.API/Controllers/InventoriesController.cs" Line="29" Column="52" />
+      <File FileName="InventoryManagement.Persistence/InventoryManagementDbContext.cs" Line="31" Column="11" />
+      <File FileName="InventoryManagement.API/Controllers/InventoriesController.cs" Line="44" Column="1" />
+      <File FileName="InventoryManagement.Persistence/PersistenceServiceRegistration.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Application/Features/Products/Commands/CreateProduct/CreateProductInventoryDto.cs" Line="5" Column="1" />
+      <File FileName="InventoryManagement.Domain/Entities/Product.cs" Line="12" Column="5" />
+      <File FileName="InventoryManagement.Application/Features/Products/Commands/CreateProduct/CreateProductDto.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Persistence/Repositories/ProductRepository.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Domain/Entities/ProductInventory.cs" Line="5" Column="1" />
+      <File FileName="InventoryManagement.Application/Features/Products/Commands/CreateProduct/CreateProductCommand.cs" Line="12" Column="1" />
+      <File FileName="InventoryManagement.Application/Features/Products/Commands/CreateProduct/CreateProductCommandHandler.cs" Line="31" Column="10" />
+      <File FileName="InventoryManagement.Application/Features/Products/Commands/CreateProduct/CreateProductCommandResponse.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Application/Profiles/MappingProfile.cs" Line="30" Column="1" />
+      <File FileName="InventoryManagement.API/Controllers/ProductsController.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Application/Features/Products/Commands/CreateProduct/CreateProductCommandValidator.cs" Line="12" Column="30" />
+      <File FileName="InventoryManagement.Application/Features/Products/Queries/GetProductsList/ProductListVM.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Domain/Shared/AuditableEntity.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.API/Program.cs" Line="47" Column="1" />
+      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/CreateInventory/CreateInventoryDto.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/CreateInventory/CreateInventoryCommandHandler.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/CreateInventory/CreateInventoryCommand.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Application/Features/Inventories/Commands/CreateInventory/CreateInventoryCommandResponse.cs" Line="1" Column="1" />
+      <File FileName="InventoryManagement.Domain/Entities/Inventory.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -38,7 +60,9 @@
               <Node name="Responses" expanded="True" />
             </Node>
             <Node name="InventoryManagement.Domain" expanded="True">
-              <Node name="Entities" expanded="True" />
+              <Node name="Entities" expanded="True">
+                <Node name="Product.cs" selected="True" />
+              </Node>
               <Node name="Shared" expanded="True" />
             </Node>
             <Node name="InventoryManagement.Persistence" expanded="True">
@@ -52,8 +76,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.InventoryManagement.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

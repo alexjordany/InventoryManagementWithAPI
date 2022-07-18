@@ -2,6 +2,7 @@
 using InventoryManagement.Application.Features.Inventories.Commands.UpdateInventory;
 using InventoryManagement.Application.Features.Inventories.Queries.GetInventoriesByName;
 using InventoryManagement.Application.Features.Inventories.Queries.GetInventoriesList;
+using InventoryManagement.Application.Features.Inventories.Queries.GetInventoryDetail;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -32,6 +33,15 @@ public class InventoriesController : ControllerBase
         var dtos = await _mediator.Send(new GetInventoriesListQuery());
         return Ok(dtos);
     }
+
+    [HttpGet("{id:int}", Name = "GetInventoryById")]
+    public async Task<ActionResult<InventoryDetailVM>> GetInventoryById(int id)
+    {
+        var getInventoryDetailQuery = new GetInventoryDetailQuery() { Id = id };
+        return Ok(await _mediator.Send(getInventoryDetailQuery));
+    }
+
+
 
     [HttpGet("{name}", Name = "GetInventoriesByName")]
     [ProducesResponseType(StatusCodes.Status200OK)]

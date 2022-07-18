@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j012Nw6VaDsDibBwJbVp1zGfUYCquHSAItOSgeiWH7r4aQK0s5d4MKPm/Yvk+nCqvOBC0+704ND/gueI2VMAiw==",
+  "dgSpecHash": "I/ZA+co2eE4Zug2OLzdA49mhb0LdQzwD9bRcxsGO/TbpBA7eVKQvcIMr3OiCk6AnGW0mvGgwnXuERsGGI4ZRsQ==",
   "success": true,
   "projectFilePath": "/Users/alexparrales/Projects/InventoryManagementWithAPI/InventoryManagement/InventoryManagement.Persistence/InventoryManagement.Persistence.csproj",
   "expectedPackageFiles": [
